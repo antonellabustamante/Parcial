@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/fondo.png);
+}
+.logo{
+    height: 10%;
+    width: 8%;  
+}
+.menu{
+    background-color: rgb(122, 224, 231);
+    display: flex;
+    justify-content: space-between;
+}
+.opciones li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+.opciones li{
+    list-style-type: none;
+    text-align: center;
+}
+.opciones li a:hover{
+ text-decoration: underline;
+ color: white;
+ background-color: black ;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ border-radius: 10px;
+ border:solid black
+}
+.opciones{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.cancionesinicio{
+   background-color:  rgb(122, 224, 231);
+   height: 50%;
+}
+.nombre{
+    text-align: center;
+    background-color:  rgb(118, 190, 238);
+}
+.cancioneshome{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: black;
+    background-color: rgb(202, 250, 71);
+    border-radius: 10px;
+    border:solid rgb(118, 190, 238);
+}
+a{
+    color: black;
+    border-radius: 10px;
+}
+h1{
+    background-color: rgb(122, 224, 231);
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.generos{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.generos li{
+    list-style-type: none;
+}
+.generos li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.generos li a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: cornsilk;
+    border-radius: 10px;
+    border:solid black
+}
+/*---Comienzo con Media Queries---*/
+@media(min-whidth: 1024px){
+    
+    .menu{
+        width: 90%;
+        display: flex;
+    }
+    .logo{
+        width: 10%;
+    }
+   .opciones{
+       display: inline-block;
+   }
+    }
