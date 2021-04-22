@@ -60,63 +60,64 @@ img{
     text-align: center;
     background-color: lightyellow;
 }
-.cancioneshome{
-    display: flex;
-    justify-content: space-around;
-}
-h2{
-    text-align: center;
-}
 a{
-   justify-content: center;
-    color: black;
-    border-radius: 10px;
+    justify-content: center;
+     color: black;
+     border-radius: 10px;
+     display: flex;
+     text-decoration: none;
+ }
+ .generos{
+     width: 50%;
+     margin: auto;
+     display: flex;
+     text-align: center;
+     justify-content: space-around;
+ }
+ .generos li{
+     list-style-type: none;
+ }
+ .generos li a{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 20px;
+ }
+ .generos li a:hover{
+     text-decoration: underline;
+     color: rgb(0, 0, 0);
+     background-color: cornsilk;
+     border-radius: 10px;
+     border:solid black
+ }
+ .biografia{
     display: flex;
-    text-decoration: none;
-}
-h1{
-    background-color:lightyellow;
-    color: black;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.generos{
-    width: 50%;
-    margin: auto;
-    display: flex;
-    text-align: center;
     justify-content: space-around;
-}
-.generos li{
-    list-style-type: none;
-}
-.generos li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-}
-.generos li a:hover{
-    text-decoration: underline;
-    color: rgb(0, 0, 0);
-    background-color: cornsilk;
-    border-radius: 10px;
-    border:solid black
-}
-.footer{
-    padding: 5px;
-}
-/*---Comienzo con Media Queries---*/
-@media(min-whidth: 1024px){
-    
-    .menu{
-        width: 90%;
-        display: flex;
-    }
-    .logo{
-        width: 10%;
-    }
-   .opciones{
-       display: inline-block;
-   }
-    }
+    padding: 12px;
+    margin: auto;
+    align-items: center;
+ }
+ .exitos{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    margin: auto;
+    align-items: center;
+ }
+ p{
+     color: lightyellow;
+     background-color: black;
+     text-align: center;
+ }
+ h2{
+    color: lightyellow;
+    background-color: black;
+    text-align: center;
+ }
+ h3{
+    color: lightyellow;
+    text-align: center;
+ }
+ .footer{
+     padding: 5px;
+ }

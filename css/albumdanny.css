@@ -24,6 +24,7 @@ img{
     background-color: lightyellow;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .opciones li a{
     text-decoration: none;
@@ -46,30 +47,18 @@ img{
 .opciones{
     text-align: center;
     margin: auto;
-    width: 25%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
 }
-.genero{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    width: 100%;
+.cancionesinicio{
+   background-color: lightyellow;
+   height: 50%;
+   padding: 5px;
 }
-.cadagenero{
-    height: 25%;
-    align-items: center;
-}
-.cadagenero img{
-    width: 60%;
-}
-a{
-    text-decoration: none;
-    color: lightyellow;
-    border-color: lightyellow;
-    display: flex;
-    border-width: 2px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.nombre{
+    text-align: center;
+    background-color: lightyellow;
 }
 .generos{
     width: 50%;
@@ -77,7 +66,6 @@ a{
     display: flex;
     text-align: center;
     justify-content: space-around;
-    box-sizing: border-box;
 }
 .generos li{
     list-style-type: none;
@@ -94,10 +82,6 @@ a{
     background-color: cornsilk;
     border-radius: 10px;
     border:solid black
-}
-.nombre{
-    text-align: center;
-    background-color: lightyellow;
 }
 .footer{
     padding: 5px;

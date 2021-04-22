@@ -24,6 +24,7 @@ img{
     background-color: lightyellow;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .opciones li a{
     text-decoration: none;
@@ -46,38 +47,27 @@ img{
 .opciones{
     text-align: center;
     margin: auto;
-    width: 25%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
 }
-.genero{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    width: 100%;
-}
-.cadagenero{
-    height: 25%;
-    align-items: center;
-}
-.cadagenero img{
-    width: 60%;
+.nombre{
+    text-align: center;
+    background-color: lightyellow;
 }
 a{
-    text-decoration: none;
-    color: lightyellow;
-    border-color: lightyellow;
-    display: flex;
-    border-width: 2px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.generos{
+    justify-content: center;
+     color: black;
+     border-radius: 10px;
+     display: flex;
+     text-decoration: none;
+ }
+ .generos{
     width: 50%;
     margin: auto;
     display: flex;
     text-align: center;
     justify-content: space-around;
-    box-sizing: border-box;
 }
 .generos li{
     list-style-type: none;
@@ -95,9 +85,25 @@ a{
     border-radius: 10px;
     border:solid black
 }
-.nombre{
-    text-align: center;
+.cancionjazz{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    margin: auto;
+    width: auto;
+}
+p{
+    color: black;
     background-color: lightyellow;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    background-color: lightyellow;
+    color: black;
+    text-align: center;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .footer{
     padding: 5px;
