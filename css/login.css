@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/fondo.png);
+}
+.logo{
+    height: 10%;
+    width: 8%;  
+}
+img{
+    width: 100%;
+}
+.buscador{
+    width: 400px;
+    margin: auto;
+}
+.buscador input{
+    width: 100%;
+}
+.menu{
+    background-color: lightyellow;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.opciones li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+.opciones li{
+    list-style-type: none;
+    text-align: center;
+}
+.opciones li a:hover{
+ text-decoration: underline;
+ color: white;
+ background-color: black ;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ border-radius: 10px;
+ border:solid black
+}
+.opciones{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nombre{
+    text-align: center;
+    background-color: lightyellow;
+}
+.generos{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.generos li{
+    list-style-type: none;
+}
+.generos li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.generos li a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: cornsilk;
+    border-radius: 10px;
+    border:solid black
+}
+.footer{
+    padding: 5px;
+}
+.login-header{
+    display: flex;
+    justify-content: center;
+    color: lightgoldenrodyellow;
+}
+.login-form{
+    display: inline;
+    color: lightgoldenrodyellow;
+}
